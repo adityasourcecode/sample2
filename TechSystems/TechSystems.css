@@ -1,0 +1,44 @@
+p{
+    color:blue
+    }
+
+h1,h2{
+        color:rgb(41, 180, 173)
+    }
+    
+li{
+    color:pink
+}
+
+table,th,td{
+    border:1px solid black;
+    /*border-collapse: collapse;*/
+}
+
+th,td{
+    padding:12px;
+}
+
+    ul{
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: #14be4f;
+      }
+      
+      li {
+        float: right;
+      }
+      
+      li a {
+        display: block;
+        color:  black;
+        text-align: center;
+        padding: 16px;
+        text-decoration: none;
+      }
+      
+      li a:hover {
+        background-color: #15b42a;
+      }
