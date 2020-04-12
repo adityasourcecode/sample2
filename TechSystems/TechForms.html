@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+  <title>TECH SYSTEMS</title>
+  <link href="TechForms.css" rel="stylesheet" type="text/css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <title>Grouping Form Controls in HTML</title>
+    </head>
+    <body>
+        <div>
+        <h4>IT Consulting Registration Forms</h4>
+        </div>
+        <form>
+            <fieldset>
+                <div>Personal Details</div>         
+                <label>Firstname: <input type="text" name="firstname"></label>            
+                <label>Lastname: <input type="text" name="lastname"></label>
+                <div>Gender</div>            
+                <label><input type="radio" name="gender" value="male"> Male <br></label>            
+                <label><input type="radio" name="gender" value="female"> Female<br></label>
+                <div>Technologies Intrested</div>
+                <label><input type="checkbox" name="Tech" value="Front-End Technologies"> Front-End Technologies<br></label>
+                <label><input type="checkbox" name="Tech" value="Full-Stack Technologies"> Full-Stack Technologies<br></label>
+                <label><input type="checkbox" name="Tech" value="Back-End Technologies"> Back-End Technologies<br></label>
+                <div>Contact Details</div>
+                <label>Email Address: <input type="email" name="email" placeholder="someone@gmail.com"><br><br></label>
+                <label>Phone Number: <input type="text" name="phonenumber" placeholder="123-456-7891"><br><br></label>
+                <div>Address</div>
+                <label>House Address <input type="text"><br><br></label>
+                <label>City <input type="text"><br><br></label>
+                <label>PostalCode <input type="text"><br><br></label>
+                <div>Country</div>
+                <input list="browsers" name="browser">
+                <datalist id="browsers">
+                <option value="USA">
+                <option value="CANADA">
+                <option value="AUSTRALIA">
+                <option value="INDIA">
+                <option value="ENGLAND"></option>
+                </datalist >
+                <br><br>
+                <input type="submit" value="submit">
+            </fieldset>
+        </form>
+    </body>
+    </html>
+</body>
